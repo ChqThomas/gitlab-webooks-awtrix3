@@ -6,3 +6,9 @@ This app runs a server listening to gitlab webhooks.
 When a webhook is received, it will send a message to a AWTRIX 3 server with an http request.
 
 This can be used to display a notification when a pipeline begins and ends.
+
+### Usage
+
+```bash	
+./gitlab-webhooks-awtrix3 --awtrix-host http://192.168.0.xxx --awtrix-username awtrix --awtrix-password awtrix --gitlab-secret xxxxxx --port 3000
+```
